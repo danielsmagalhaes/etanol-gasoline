@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etanol ou Gasolina?</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="screen">
+      <div class="leftside">
+        <img src="./src/neutral.png" alt="Etanol ou Gasolina" id="status" />
+      </div>
+      <div class="rightside">
+        <form name="choice">
+          <label>
+            <input
+              type="text"
+              placeholder="Valor do Etanol"
+              name="selectEtanol"
+            />
+          </label>
+          <label>
+            <input
+              type="text"
+              placeholder="Valor da Gasolina"
+              name="selectGasoline"
+            />
+          </label>
+          <label>
+            <input type="button" value="Calcular" onclick="calculate()" />
+          </label>
+          <label>
+            <input type="reset" value="Limpar" onclick="clean()" />
+          </label>
+        </form>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

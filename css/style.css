@@ -1,0 +1,31 @@
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 520px;
+  height: 230px;
+  border: 1px solid #000;
+  margin: auto;
+}
+
+.leftside {
+  justify-content: center;
+  align-items: center;
+}
+
+.leftside img {
+  width: 200px;
+  padding: 50px;
+}
+
+.rightside {
+  width: 200px;
+  background-color: #ddd;
+  padding: 50px;
+}
+
+.rightside label {
+  display: block;
+  margin-bottom: 20px;
+}
